@@ -1,8 +1,10 @@
 package org.example;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class Product {
     private String title;
     private Integer price;
